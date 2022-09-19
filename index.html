@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./SRC/favicon.ico">
+        <link rel="stylesheet" href="./CSS/estilos.css">
+        <title>Página principal | GrandChase</title>
+    </head>
+    <body><!--Comentario-->
+        <div class="div__gridIndex">
+            <header class="header">
+                <nav class="header__navegaciónIndexSuperior"><!--Para la entrega del primer desafio, dentro del navegador los links tienen que estar dentro de una lista para que salgan uno debajo del otro y asi estén agrupados. Para el proyecto final no hace falta implementar la lista-->
+                    <img src="./SRC/GrandChaseLOGO.png" alt="logo" class="logoSuperior"> <!--Logo. Mi Idea es que el logo sea un link que te lleve a la página principal (aun no sé)-->
+                    <ul class="lista__navegaciónIndex">
+                        <li><a href="#">Logo de inicio</a>                                             </li><!--Inicio logo-->
+                        <li><a href="./HTML/jugar.html">Jugar</a>                                      </li>
+                        <li><a href="#">Página principal</a>                                           </li><!--"../"es para buscar en una carpeta anterior a la que estoy-->
+                        <li><a href="./HTML/noticias.html">Noticias</a>                                </li>
+                        <li><a href="./HTML/personajes.html">Personajes</a>                            </li>
+                        <li><a href="./HTML/soporte.html">Soporte</a>                                  </li>
+                    </ul><!--ul es la etiqueta para listas desordenadas y adecuada para los enlaces de la barra de navegación-->
+                </nav>
+            </header>
+            <main>
+                <section> <!--Mi idea en esta parte de la pag es hacer la primera sección de la página index donde las imagenes corren hacia el costado (como se ve en la primera imagen del wireframe de escritorio "INICIO ESCRITORIO"), logrando ver una imagen tras otra con su respectivo texto. En clases aun no vemos como hacer este efecto. Por lo tanto interpreto mientras tanto que colocar cada una de las imagenes con su texto dentro de un div seria lo adecuado por ahora.-->
+                    <div>
+                        <img src="./SRC/Noticias/1Festival-EventoNoticia.jpg" class="imagenes1Index" alt="Noticia 1" loading="lazy"><!--Evento-->
+                        <h1 class="h1">Evento de año nuevo</h1>
+                        <a class="anclas" href="./HTML/noticias.html">Más</a>
+                    </div>
+                    <div>
+                        <img src="./SRC/Noticias/2ExpansionTrenFantasma.jpg" class="imagenes1Index" alt="Noticia 2" loading="lazy"><!--Expansión-->
+                        <h1 class="h1">¡Una nueva amenaza se aproxima!</h1>
+                        <a class="anclas" href="./HTML/noticias.html">Más</a>
+                    </div>
+                    <div>
+                        <img src="./SRC/Noticias/3RonanNuevaClase2.png" class="imagenes1Index" alt="Noticia 3" loading="lazy"><!--Ronan-->
+                        <h1 class="h1">Ronan el caballero rúnico</h1>
+                        <a class="anclas" href="./HTML/noticias.html">Más</a>
+                    </div>
+                    <div>
+                        <img src="./SRC/Noticias/4IncorporaciónOrbesPoder.jpg" class="imagenes1Index" alt="Noticia 4" loading="lazy"><!--NuevaEstrella-->
+                        <h1 class="h1">¡Conoce el nuevo objeto que permite aumentar tu poder!</h1>
+                        <a class="anclas" href="./HTML/noticias.html">Más</a>
+                    </div>
+                    <div>
+                        <img src="./SRC/Noticias/5Seaproximaunanuevaestrella.png" class="imagenes1Index" alt="Noticia 5" loading="lazy"><!--Orbes-->
+                        <h1 class="h1">Se aproxima una nueva estrella</h1>
+                        <a class="anclas" href="./HTML/noticias.html">Más</a>
+                    </div>
+                </section>
+                <section>
+                    <div class="main__section__div__IndexTitulo">
+                        <h2>Últimas noticias</h2><!--La idea acá es poder apretar la imagen y que te lleve directo a la noticia (sin un botón de "más") (Todavía no aprendí a hacerlo.) -->
+                    </div>
+                </section>
+                <section class="main__section__noticiasIndex">
+                    <div class="main__section__div__noticiasIndex1">
+                        <img src="./SRC/Noticias/1Festival-EventoNoticia.jpg" class="imagenes2Index" alt="Noticia 1" loading="lazy">
+                        <h4 class="h4">Es hora de celebrar el festival de año nuevo (FECHA)</h4>
+                    </div>
+                    <div class="main__section__div__noticiasIndex2">
+                        <img src="./SRC/Noticias/2ExpansionTrenFantasma.jpg" class="imagenes2Index2" alt="Noticia 2" loading="lazy">
+                        <h4 class="h4">El nuevo calabozo "El Tren fantasma" llegará el (FECHA)</h4>
+                    </div>
+                    <div class="main__section__div__noticiasIndex1">
+                        <img src="./SRC/Noticias/3RonanNuevaClase2.png" class="imagenes2Index" alt="Noticia 3" loading="lazy">
+                        <h4 class="h4">El caballero rúnico está cada vez mas cerca. (FECHA)</h4>
+                    </div>
+                    <div class="main__section__div__noticiasIndex2">
+                        <img src="./SRC/Noticias/4IncorporaciónOrbesPoder.jpg" class="imagenes2Index4" alt="Noticia 4" loading="lazy">
+                        <h4 class="h4">Los orbes de poder y todo su potencial. (FECHA)</h4>
+                    </div>
+                    <div class="main__section__div__noticiasIndex1">
+                        <img src="./SRC/Noticias/5Seaproximaunanuevaestrella.png" class="imagenes2Index" alt="Noticia 5" loading="lazy">
+                        <h4 class="h4">Un personaje nuevo está muy cerca. (FECHA)</h4>
+                    </div>
+                </section>
+                <section>
+                    <div class="main__section__div__IndexTitulo">
+                        <h2 class="h2">Conoce a los aventureros de GrandChase</h2>
+                    </div>
+                </section>
+                <section class="main__section__personajesIndex">
+                    <div class="main__section__div__personajesIndex1">
+                        <img src="./SRC/Personajes/RostroELESIS.png" class="imagenes3Index" alt="Personaje Elesis" loading="lazy">
+                        <h4 class="h4">Elesis</h4>
+                        <p class="p">Breve Descrición</p>
+                        <a class="anclas" href="./HTML/personajes.html">Más</a>
+                    </div>
+                    <div class="main__section__div__personajesIndex2">
+                        <img src="./SRC/Personajes/RostroARME.png" class="imagenes3Index" alt="Personaje Arme" loading="lazy">
+                        <h4 class="h4">Arme</h4>
+                        <p class="p">Breve Descrición</p>
+                        <a class="anclas" href="./HTML/personajes.html">Más</a>
+                    </div>
+                    <div class="main__section__div__personajesIndex2">
+                        <img src="./SRC/Personajes/RostroLIRE.png" class="imagenes3Index" alt="Personaje Lire" loading="lazy">
+                        <h4 class="h4">Lire</h4>
+                        <p class="p">Breve Descrición</p>
+                        <a class="anclas" href="./HTML/personajes.html">Más</a>
+                    </div>
+                    <div class="main__section__div__personajesIndex2">
+                        <img src="./SRC/Personajes/RostroLASS.png" class="imagenes3Index" alt="Personaje Lass" loading="lazy">
+                        <h4 class="h4">Lass</h4>
+                        <p class="p">Breve Descrición</p>
+                        <a class="anclas" href="./HTML/personajes.html">Más</a>
+                    </div>
+                </section>
+                <section>
+                    <div class="main__section__div__IndexTitulo main__section__div__IndexSoporte">
+                        <h2 class="h2">Soporte</h2>
+                        <h3 class="h3">Estamos para ayudar</h3>
+                        <a class="anclas" href="./HTML/soporte.html">Más</a>
+                    </div>
+                </section>
+            </main>
+            <footer>
+                <nav class="navegaciónInferior">
+                    <ul class="lista__pieDePagina">
+                        <li><a href="#">Página principal</a>                                           </li> <!-- Mis enlaces salen uno arriba de otro porque estan en forma de lista!-->
+                        <li><a href="./HTML/noticias.html">Noticias</a>                                </li>
+                        <li><a href="./HTML/personajes.html">Personajes</a>                            </li>
+                        <li><a href="./HTML/soporte.html">Soporte</a>                                  </li>
+                        <img src="./SRC/GrandChaseLOGO.png" alt="logo" class="logoInferior"><!--Logo-->
+                        <p class="p">Copyright © -----------. All Rights Reserved.</p>
+                    </ul>
+                </nav>
+            </footer>
+        </div>
+    </body>
+</html>

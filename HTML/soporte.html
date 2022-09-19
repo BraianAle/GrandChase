@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../SRC/Favicon.ico">
+        <link rel="stylesheet" href="../CSS/estilos.css">
+        <title>Soporte | GrandChase</title>
+    </head>
+    <body><!--Comentario-->
+        <header class="header">
+            <nav class="header__navegación"><!--Para la entrega del primer desafio, dentro del navegador los links tienen que estar dentro de una lista para que salgan uno debajo del otro y asi estén agrupados. Para el proyecto final no hace falta implementar la lista-->
+                <img src="../SRC/GrandChaseLOGO.png" alt="logo" class="logoSuperior"> <!--Logo. Mi Idea es que el logo sea un link que te lleve a la página principal (aun no sé)-->
+                <ul class="lista__navegación">
+                    <li><a href="../index.html">Logo de inicio</a>                             </li><!--Inicio logo-->
+                    <li><a href="./jugar.html">Jugar</a>                                      </li>
+                    <li><a href="../index.html">Página principal</a>                           </li><!--"../"es para buscar en una carpeta anterior a la que estoy-->
+                    <li><a href="./noticias.html">Noticias</a>                                </li>
+                    <li><a href="./personajes.html">Personajes</a>                            </li>
+                    <li><a href="#">Soporte</a>                                               </li>
+                </ul><!--ul es la etiqueta para listas desordenadas y adecuada para los enlaces de la barra de navegación-->
+            </nav>
+        </header>
+        <main>
+            <section>
+                <div>
+                    <h1 class="h1 main__section__div__h1__soporte">Soporte</h1>
+                </div>
+            </section>
+            <section class="main__section__soporte1">
+                <div class="main__section__div__preguntas">
+                    <h2 class="h2">Preguntas frecuentes</h2><br><br><br><br><br><br>
+                    <h3 class="h3">¿Cómo inicio?</h3>
+                    <p class="p">Descargue e instale el cliente.
+                        Luego, haga clic en el icono de GrandChase para iniciar y acceder al juego.
+                        (El juego no se puede lanzar en el sitio web oficial). <br> <a href="jugar.html">DESCARGAR</a> <br> Si no puede iniciar el lanzador, envíenos una consulta a través del formulario que se encuentra abajo.
+                        Por favor, incluya los detalles de su situación para una respuesta más rápida</p><br><br><br><br><br><br>
+                    <h3 class="h3">¿Cómo puedo reclamar mis códigos de regalo?</h3>
+                    <p class="p">Puedes reclamar tus paquetes yendo al juego y abriendo el Menú ESC > Canjear.</p><br><br><br><br><br><br>
+                    <h3 class="h3">¿Cuáles son los requisitos del sistema?</h3>
+                    <p class="p">MÍNIMO: Sistema operativo: Windows 10 (32 bits o 64 bits) Procesador: Intel Core i3-530 2.9 GHz Memoria: 4 GB de RAM Gráficos: GTS 250, GeForce 9800 GTX, Radeon HD 3870 X2 Red: Conexión a Internet de banda ancha Almacenamiento: 39 GB de espacio disponible RECOMENDADO: Sistema operativo: Windows 10 (64 bits) Procesador: Intel Core i5-650 3.2GHz Memoria: 8 GB de RAM Tarjeta gráfica: NVIDIA GTX 970, AMD RX 480 Red: Conexión a Internet de banda ancha Almacenamiento: 39 GB de espacio disponible</p>
+                </div>
+                <div>
+                    <img src="../SRC/Soporte/SOPORTE.jpg" alt="tres personajes femeninas haciendo un dibujo de un conejo" class="main__section__div__imagenSoporte">
+                </div>
+            </section>
+            <section class="main__section__formulario">
+                <div class="main__section__div__formulario">
+                    <p class="p">Si no ha encontrado la respuesta que está buscando, envíe una consulta.</p>
+                    <form action="" class="formulario"><!--El atributo action es hacia donde viaja el formulario. Por ahora no lo usaremos porque no vamos a enviar nada a ningun lado-->
+                        <div>
+                            <!--<label for="">Ingrese su nick</label>-->
+                            <input type="text" placeholder="Nick" required>
+                        </div><br>
+                        <div>
+                            <!--<label for="">Ingrese su email para recibir un correo con nuestra respuesta</label>-->
+                            <input type="email" placeholder="Email" required>
+                        </div><br>
+                        <div>
+                            <!--<label for="">Escriba su consulta</label>-->
+                            <textarea name="" id="" cols="85" rows="20" placeholder="Escriba su consulta..."></textarea>
+                        </div><br>
+                        <div>
+                            <input type="submit" value="Enviar consulta">
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <nav class="navegaciónInferior">
+                <ul class="lista__pieDePagina">
+                    <li><a href="../index.html">Página principal</a>                           </li>
+                    <li><a href="./noticias.html">Noticias</a>                                </li>
+                    <li><a href="./personajes.html">Personajes</a>                            </li>
+                    <li><a href="#">Soporte</a>                                               </li>
+                    <img src="../SRC/GrandChaseLOGO.png" alt="logo" class="logoInferior"><!--Logo-->
+                    <p class="p">Copyright © -----------. All Rights Reserved.</p>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>
