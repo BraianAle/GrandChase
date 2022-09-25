@@ -6,20 +6,41 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="../SRC/Favicon.ico">
         <link rel="stylesheet" href="../CSS/estilos.css">
+        <link rel="stylesheet" href="../CSS/bootstrap.min.css">
         <title>Soporte | GrandChase</title>
     </head>
     <body><!--Comentario-->
         <header class="header">
-            <nav class="header__navegación"><!--Para la entrega del primer desafio, dentro del navegador los links tienen que estar dentro de una lista para que salgan uno debajo del otro y asi estén agrupados. Para el proyecto final no hace falta implementar la lista-->
-                <img src="../SRC/GrandChaseLOGO.png" alt="logo" class="logoSuperior"> <!--Logo. Mi Idea es que el logo sea un link que te lleve a la página principal (aun no sé)-->
-                <ul class="lista__navegación">
-                    <li><a href="../index.html">Logo de inicio</a>                             </li><!--Inicio logo-->
-                    <li><a href="./jugar.html">Jugar</a>                                      </li>
-                    <li><a href="../index.html">Página principal</a>                           </li><!--"../"es para buscar en una carpeta anterior a la que estoy-->
-                    <li><a href="./noticias.html">Noticias</a>                                </li>
-                    <li><a href="./personajes.html">Personajes</a>                            </li>
-                    <li><a href="#">Soporte</a>                                               </li>
-                </ul><!--ul es la etiqueta para listas desordenadas y adecuada para los enlaces de la barra de navegación-->
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="../index.html">
+                    <img src="../SRC/GrandChaseLOGO.png" alt="Logo" class="logoSuperior">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                    <div class="d-flex justify-content-end">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 navegacionSuperior">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Página principal</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="./jugar.html">Jugar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="./noticias.html">Noticias</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="./personajes.html">Personajes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Soporte</a>
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
             </nav>
         </header>
         <main>
@@ -80,5 +101,6 @@
                 </ul>
             </nav>
         </footer>
+        <script src="../Js/bootstrap.bundle.min.js"></script>
     </body>
 </html>

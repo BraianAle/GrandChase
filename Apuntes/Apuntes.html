@@ -5,52 +5,6 @@ loading lazy
 icono
 Enlace externo
 Estas 4 cosas son cosas que tendran en cuenta para el proyecto final.
-<!-- Ctrl+k+c / Ctrl+k+u. Estas dos combinaciones ayudan a agregar o quitar un comentario.-->
-Para que la imagen cubra todo el fondo de la página se coloca el background en el body. (el fondo se puede colocar en las distintas secciones tmb para que cubra solo esas zonas)
-
-<div><!-- DIV es una etiqueta contenedora en bloque. Es decir que ocupa todo el ancho de la pantalla.
-    SPAN tmb es una etiqueta contenedora pero es en linea, es decir que ocupa el espacio de lo que contenga dentro y nada mas por lo tanto lo proximo que se coloque aparecera al lado. -->
-    <img src="https://static.wikia.nocookie.net/grandchase/images/7/71/%EA%B7%B8%EB%9E%9C%EB%93%9C%EC%B2%B4%EC%9D%B4%EC%8A%A4_for_kakao_Arme_Chibi.png/revision/latest?cb=20180911182759g" alt="arme chibi" width="400">
-    <h3>titulo de card</h3>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati nisi reprehenderit aliquam aut? Quibusdam cum</p>
-    <a href="">leer mas</a>
-     </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-
-
-
-
-
-
-     <header>
-        <img src="https://i.pinimg.com/originals/3b/74/38/3b7438e318393931531360cf25122573.jpg" alt="logo" width="200"> <!--Logo-->
-        <nav><!--Para la entrega del primer desafio, dentro del navegador los links tienen que estar dentro de una lista para que salgan uno debajo del otro y asi estén agrupados. Para el projecto final no hace falta implementar la lista-->
-            <ul>
-                <li><a href="">Logo de inicio</a>           </li>
-                <li><a href="">Jugar</a>                    </li>
-                <li><a href="">Página principal</a>         </li>
-                <li><a href="">Noticias</a>                 </li>
-                <li><a href="">Personajes</a>               </li>
-                <li><a href="">Soporte</a>                  </li>
-                <li><a href="">Oportunidades de empleo</a>  </li>
-            </ul><!--ul es la etiqueta para listas desordenadas y adecuada para los enlaces de la barra de navegación-->
-            <a href="./index.html">Logo de inicio</a><!--Inicio logo-->
-            <a href="./jugar.html">Jugar</a>
-            <a href="./index.html">Página principal</a><!--"../"es para buscar en una carpeta anterior a la que estoy-->
-            <a href="./noticias.html">Noticias</a>
-            <a href="./personajes.html">Personajes</a>
-            <a href="./soporte.html">Soporte</a>
-            <a href="./oportunidadesdeempleo.html">Oportunidades de empleo</a>
-        </nav>
-    </header>
-
-    <a href="http://www.google.com/" target="_blank">Google</a><!--Enlace Externo-->
-
-    Dos clases diferentes a una misma etiqueta se puede y se escriben por separado.
-    
-    Las clases de se pueden dar por herencia pero en la cascada de CSS el padre debe estar primero y consecutivamente los hijos, de lo contrario no le dara estilos a los hijos y solo se les aplicara los estilos que se le dio al padre.
-
-    1vh es 1% de la pantalla
 
 
 
@@ -139,7 +93,14 @@ Para que la imagen cubra todo el fondo de la página se coloca el background en 
     -git checkout master. Este comando nos permite volver a la rama master. Mientras que si colocamos git checkout "sin las comillas el nombre de una rama ya existente" nos moveremos a esa rama. nos facilita no tener tantas carpetas, que si algo no nos gusta, eliminar la rama , etc.
     -Estando en una sub rama, se puede crear otra sub rama de esa misma sub rama para hacer modificaciones en la sub rama sin alterarla ni tampoco en la master.
     -git merge. Este comando sirve para unir las cosas de la sub rama con la master si creemos que esta todo listo. Supuestamente no hace falta casi meterse porque git mezcla todo de forma inteligente. Para hacerlo tenemos que colocar el comando estando situados sobre la rama master.
-    -
+    
+    -Cualquier link de animaciones tmb va en el head como si fuese un link donde llamamos a nuestro css
+
+    -Bootstrap la maxima cantidad de columnas que permite son 12. por lo tanto si nosotros queremos  tener 2 columnas tenemos que ponerle que cada una ocupe 6 para hacer el total de 12 y que ocupe todo el ancho del contenedor.
+
+    -xl-column / sm-row  (estas clases en las imagenes es para decirle que se achiquen o agranden dependiendo del tamaño de la pantalla.)
+
+    -Separar,Centrar o correr los links de la barra de navegacion es cuestion de ir moviendo con flex-box
 
     ----------------------------------------TIPS----------------------------------------
 
@@ -155,18 +116,61 @@ Para que la imagen cubra todo el fondo de la página se coloca el background en 
 
     ----------------------------------------COSAS PENDIENTES----------------------------------------
 
-    -Enlace externo.
-    -Hay que cambiar ( no todo ) lo que posicionamos con box model a flex-box y GRID.
-    -Se puede ver las PPT para corroborar las propiedades por ejemplo de GRID, FLEXBOX, etc.
+    -Enlace externo con REDES SOCIALES.
     -Para hacer el carrucel necesito que todas las imagenes tengan el mismo tamaño.
-    -Clase 4 comienzo de Grid (rever en caso de no estar seguro para donde salir). Clase 5 Animaciones. Clase 6 Boostrap o algo asi(?)
     -PREENTREGA 2.: Dos paginas si o si con bootstrap. Las demas pueden ser con grid y flexbox.
-    -Buscar entre los códigos de la clase 5 sobre animaciones la pagina que tenia las animaciones para los botones luminosos o con bordes que se movian. para aplicar en el mio sacando el codigo.
-    -Solucionar el problema del git commit -m.
-    
+    -Buscar entre los códigos de la clase 5 sobre animaciones la pagina que tenia las animaciones para los botones luminosos o con bordes que se movian. para aplicar en el mio sacando el codigo. (Aplicar alguna animación para la pre entrega)
+    -Al momento de hacer la entrega hay que subir a github la rama donde hice todo. Una vez corregido puedo hacer el merge. // Datos para la entrega en (Clase 6. Hora:04:14)
+
 
     ----------------------------------------HERRAMIENTAS/CODIGOS----------------------------------------
     https://toolsdw.herokuapp.com/ (ANIMACIONES) Gradientes:
+    https://toolsdw.netlify.app/
     Animate.style (sitio de animaciones donde puedo sacar el codigo y usarlo en mi CSS si quiero alguna animacion// Se debe pegar el link en el head para que el nuestro html use ese estilo (Practicamente igual que cuando colocamos o enlazamos nuestro archivo CSS pero ahora con un link)
     wow.js (otra pag de aniimaciones)       
-    Averiguar GIT Flow . (Esto sirve para conocer el flujo de trabajo en conjunto con otras personas)                                
+    Averiguar GIT Flow . (Esto sirve para conocer el flujo de trabajo en conjunto con otras personas)     
+
+
+
+
+    Texto para entregar. FALTA muchos detalles como textos, mas animaciones, etc. Por falta de tiempo. De a poco lo voy a ir completando. Espero que sea suficiente.
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IMAGEN GRANDE CON TEXTO dentro
+
+<div class="card text-bg-dark">
+    <img src="..." class="card-img" alt="...">
+    <div class="card-img-overlay">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small>Last updated 3 mins ago</small></p>
+    </div>
+  </div>
