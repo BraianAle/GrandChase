@@ -29,3 +29,10 @@
 		0 0 140px rgba(38,104,127,1),
 		0 0 180px rgba(38,104,127,1);
 }
+
+
+.ContenedorTitulo{
+	background-image: url(../SRC/Fondo/EstrelladoAzul.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
