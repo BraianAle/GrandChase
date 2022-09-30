@@ -10,23 +10,23 @@
         <title>Personajes | GrandChase</title>
     </head>
     <body><!--Comentario-->
-        <header class="header">
+        <header class="container-fluid bg-light header">
             <nav class="navbar navbar-expand-lg bg-light">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="../index.html">
-                    <img src="../SRC/GrandChaseLOGO.png" alt="Logo" class="logoSuperior">
+                    <img src="../SRC/GrandChaseLOGO.png" alt="Logo" class="LogoSuperior">
                   </a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
-                    <div class="d-flex justify-content-end">
+                    <div class="d-flex">
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 navegacionSuperior">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-4">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="../index.html">Página principal</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="./jugar.html">Jugar</a>
+                              <a class="nav-link active neon text-white" href="./jugar.html">Jugar</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active" href="./noticias.html">Noticias</a>
@@ -43,10 +43,10 @@
                 </div>
             </nav>
         </header>
-        <main>
-            <section>
-                <div>
-                    <h1 class="h1 main__section__div_h1__personajes">Aventureros</h1><!--La idea a realizar es seleccionar el personaje por medio de su imagen pequeña-->
+        <main class="container-fluid">
+            <section class="container-fluid bg-primary bg-gradient p-5 mb-5">
+                <div class="container">
+                    <h1 class="display-2">Personajes</h1>
                 </div>
             </section>
             <section class="main__section__personajes_texto">
@@ -65,18 +65,18 @@
                 </div>
             </section>
         </main>
-        <footer>
-            <nav class="navegaciónInferior">
-                <ul class="lista__pieDePagina">
-                    <li><a href="../index.html">Página principal</a>                           </li>
-                    <li><a href="./noticias.html">Noticias</a>                                </li>
-                    <li><a href="#">Personajes</a>                                            </li>
-                    <li><a href="./soporte.html">Soporte</a>                                  </li>
-                    <img src="../SRC/GrandChaseLOGO.png" alt="logo" class="logoInferior"><!--Logo-->
-                    <p class="p">Copyright © -----------. All Rights Reserved.</p>
-                </ul>
+        <footer class="container-fluid bg-light d-flex justify-content-center">
+            <nav class="nav flex-column align-items-center">
+              <a class="nav-link" href="#">Página principal</a>
+              <a class="nav-link" href="./noticias.html">Noticias</a>
+              <a class="nav-link" href="./personajes.html">Personaje</a>
+              <a class="nav-link" href="./soporte.html">Soporte</a>
+              <a href="../index.html">
+                <img src="../SRC/GrandChaseLOGO.png" alt="Logo" class="LogoInferior">
+              </a>
+              <p>Copyright © - Todos los derechos reservados.</p>
             </nav>
-        </footer>
+          </footer>
         <script src="../Js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
