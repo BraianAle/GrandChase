@@ -36,3 +36,19 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+.carruselImg{
+	filter:brightness(75%)
+}
+
+.imgHover{
+	transition: all 2s;
+}
+
+.imgHover:hover{
+	transform: scale(1.05);
+}
+
+.imgHover:click{
+	transform: scale(1.05);
+}
