@@ -1,0 +1,54 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ .LogoSuperior{
+    width: 30%;
+ }
+
+ .LogoInferior{
+    margin-left: 35%;
+    width: 30%;
+ }
+
+ .header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+ }
+
+ .neon {
+	color: rgba(233, 1, 1, 0);
+	text-shadow:
+		0 0 5px rgba(0,178,255,1),
+		0 0 10px rgba(0,178,255,1),
+		0 0 20px rgba(0,178,255,1),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+}
+
+
+.ContenedorTitulo{
+	background-image: url(../SRC/Fondo/EstrelladoAzul.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.carruselImg{
+	filter:brightness(75%)
+}
+
+.imgHover{
+	transition: all 2s;
+}
+
+.imgHover:hover{
+	transform: scale(1.05);
+}
+
+.imgHover:click{
+	transform: scale(1.05);
+}
