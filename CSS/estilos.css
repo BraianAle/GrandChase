@@ -1,3 +1,10 @@
+@charset "UTF-8";
+/* EJEMPLO PARA LLAMAR A UN VALOR DE UNA VARIABLE (MAPA): div {
+                                                                                                border: map-get($bordes, borde-dos);    
+                                                                                                } */
+/*Se crean estas variables en forma de ejemplo para recordar como se hace. No están aplicadas en ningún sitio*/
+/* EJEMPLO DE MIXINS Y COMO UTILIZARLOS.  Tanto los extend como los mixins son pedazos de código que nos sirven para reutilizarlos y no escribir el mismo código más veces (A diferencia de los extend, los mixins nos permiten colocarle argumentos
+                                          los cuales nos dejan generar mucha variedad de estilos en pocas lineas). */
 * {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 
@@ -31,3 +38,19 @@
 
 .imgHover:click {
   transform: scale(1.05); }
+
+/*EJEMPLO DE EXTEND E INCLUDE SIN APLICAR, SOLO PARA RECORDAR Y PRACTICAR.
+
+.section__div1{
+	boder: 1px solid black;
+	width: 100%;
+	height: 100%;
+	color: gray;
+	display: flex;
+}
+
+.section__div2{
+	@extend .section__div1;
+	@include background-color: green;                                -LO QUE ESTÁ HACIENDO ".SECTION__DIV2" ES COPIAR TODAS LAS PROPIEDADES DE ".SECTION__DIV1" Y ADEMÁS INCLUIR UN FONDO VERDE.
+}
+	*/
