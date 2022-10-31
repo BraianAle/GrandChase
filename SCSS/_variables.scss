@@ -1,11 +1,12 @@
-$color-principal: white;
+$fuentes:(
+    letra-uno : 'Franklin Gothic Medium',
+    letra-dos : 'Segoe UI',
+    letra-tres : 'Verdana',
+);
 
-$bordes:(
-    borde-uno : 1px solid black,
-    borde-dos : 2px solid black,
-    borde-tres : 3px solid black,
-);                                            /* EJEMPLO PARA LLAMAR A UN VALOR DE UNA VARIABLE (MAPA): div {
-                                                                                                border: map-get($bordes, borde-dos);    
-                                                                                                } */
-
-/*Se crean estas variables en forma de ejemplo para recordar como se hace. No están aplicadas en ningún sitio*/
+$color:(
+    color1 : white,
+    color2 : black,
+    color3 : blue,
+    color4 : red,
+);

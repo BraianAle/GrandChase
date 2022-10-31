@@ -16,18 +16,7 @@
 	transform: scale(1.05);
 }
 
-/*EJEMPLO DE EXTEND E INCLUDE SIN APLICAR, SOLO PARA RECORDAR Y PRACTICAR.
-
-.section__div1{
-	boder: 1px solid black;
-	width: 100%;
-	height: 100%;
-	color: gray;
-	display: flex;
+.btn-3:hover {
+	background: #ff96ad;
+	box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad, 0 0 50px #ff96ad, 0 0 200px #ff96ad;
 }
-
-.section__div2{
-	@extend .section__div1;
-	@include background-color: green;                                -LO QUE ESTÁ HACIENDO ".SECTION__DIV2" ES COPIAR TODAS LAS PROPIEDADES DE ".SECTION__DIV1" Y ADEMÁS INCLUIR UN FONDO VERDE.
-}
-	*/

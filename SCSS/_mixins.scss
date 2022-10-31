@@ -1,24 +1,5 @@
-/* EJEMPLO DE MIXINS Y COMO UTILIZARLOS.  Tanto los extend como los mixins son pedazos de código que nos sirven para reutilizarlos y no escribir el mismo código más veces (A diferencia de los extend, los mixins nos permiten colocarle argumentos
-                                          los cuales nos dejan generar mucha variedad de estilos en pocas lineas). */
-
-
-
-@mixin mixinHeight{                                    /* <---- Este mixin lo que hace es estar fijo. Siempre que lo llame aplicara 250px de alto. A estos mixines se los llama con @include */
-    height: 250px
+@mixin fuente-color-mediano($fuentes,$color){
+    font-family: $fuentes;
+    font-size: large;
+    color: $color;
 }
-
-
-@mixin flex-row-center{
-    border: 1px solid black;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;                             /*<---Siempre que lo llame coloco "@include flex-row-center;*/
-}
-
-@mixin flex-row-center-border($bordes){
-    border: $bordes;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;                             /*<---Para llamarlo para una clase coloco: "@include flex-row-center($bordes);     ESTO ME PERMITIRIA TENER VALORES FIJOS, REUTILIZAR EL CÓDIGO SI ES NECESARIO Y TAMBIEN EN CASO DE QUE EL BORDE NO ME GUSTE O
-                                                               QUIERA CAMBIARLO PUEDA HACERLO DESDE LA VARIABLE A OTRO VALOR Y SE MODIFICARIA EN TODO MI PROYECTO AUTOMATICAMENTE AL NUEVO VALOR.                  */
-}                                                  
